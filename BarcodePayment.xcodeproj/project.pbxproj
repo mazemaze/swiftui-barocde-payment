@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA76AE2529A3028900E0831F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76AE2429A3028900E0831F /* APIError.swift */; };
+		AA76AE2729A3031700E0831F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76AE2629A3031700E0831F /* API.swift */; };
+		AA76AE2929A3184800E0831F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76AE2829A3184800E0831F /* AppState.swift */; };
+		AAE790A7299F814400F88F3B /* BarcodePaymentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790A6299F814400F88F3B /* BarcodePaymentApp.swift */; };
+		AAE790A9299F814400F88F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790A8299F814400F88F3B /* ContentView.swift */; };
+		AAE790AB299F814500F88F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE790AA299F814500F88F3B /* Assets.xcassets */; };
+		AAE790AE299F814500F88F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE790AD299F814500F88F3B /* Preview Assets.xcassets */; };
+		AAE790B8299F814500F88F3B /* BarcodePaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790B7299F814500F88F3B /* BarcodePaymentTests.swift */; };
+		AAE790C2299F814500F88F3B /* BarcodePaymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790C1299F814500F88F3B /* BarcodePaymentUITests.swift */; };
+		AAE790C4299F814500F88F3B /* BarcodePaymentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790C3299F814500F88F3B /* BarcodePaymentUITestsLaunchTests.swift */; };
+		AAE790D2299F83B900F88F3B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790D1299F83B900F88F3B /* LoginView.swift */; };
+		AAE790D6299F84D100F88F3B /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790D5299F84D100F88F3B /* RegistrationView.swift */; };
+		AAE790D8299F84ED00F88F3B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790D7299F84ED00F88F3B /* HomeView.swift */; };
+		AAE790DA299F874300F88F3B /* DepositView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790D9299F874300F88F3B /* DepositView.swift */; };
+		AAE790DC299F875900F88F3B /* ClaimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE790DB299F875900F88F3B /* ClaimView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE790B4299F814500F88F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE7909B299F814400F88F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE790A2299F814400F88F3B;
+			remoteInfo = BarcodePayment;
+		};
+		AAE790BE299F814500F88F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE7909B299F814400F88F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE790A2299F814400F88F3B;
+			remoteInfo = BarcodePayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA76AE2429A3028900E0831F /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		AA76AE2629A3031700E0831F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AA76AE2829A3184800E0831F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AAE790A3299F814400F88F3B /* BarcodePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE790A6299F814400F88F3B /* BarcodePaymentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodePaymentApp.swift; sourceTree = "<group>"; };
+		AAE790A8299F814400F88F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAE790AA299F814500F88F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE790AD299F814500F88F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAE790B3299F814500F88F3B /* BarcodePaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodePaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE790B7299F814500F88F3B /* BarcodePaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodePaymentTests.swift; sourceTree = "<group>"; };
+		AAE790BD299F814500F88F3B /* BarcodePaymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodePaymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE790C1299F814500F88F3B /* BarcodePaymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodePaymentUITests.swift; sourceTree = "<group>"; };
+		AAE790C3299F814500F88F3B /* BarcodePaymentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodePaymentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAE790D1299F83B900F88F3B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AAE790D5299F84D100F88F3B /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AAE790D7299F84ED00F88F3B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AAE790D9299F874300F88F3B /* DepositView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositView.swift; sourceTree = "<group>"; };
+		AAE790DB299F875900F88F3B /* ClaimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE790A0299F814400F88F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE790B0299F814500F88F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE790BA299F814500F88F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA76AE2329A3028100E0831F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA76AE2429A3028900E0831F /* APIError.swift */,
+				AA76AE2629A3031700E0831F /* API.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AAE7909A299F814400F88F3B = {
+			isa = PBXGroup;
+			children = (
+				AAE790A5299F814400F88F3B /* BarcodePayment */,
+				AAE790B6299F814500F88F3B /* BarcodePaymentTests */,
+				AAE790C0299F814500F88F3B /* BarcodePaymentUITests */,
+				AAE790A4299F814400F88F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE790A4299F814400F88F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE790A3299F814400F88F3B /* BarcodePayment.app */,
+				AAE790B3299F814500F88F3B /* BarcodePaymentTests.xctest */,
+				AAE790BD299F814500F88F3B /* BarcodePaymentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE790A5299F814400F88F3B /* BarcodePayment */ = {
+			isa = PBXGroup;
+			children = (
+				AA76AE2329A3028100E0831F /* Data */,
+				AAE790A6299F814400F88F3B /* BarcodePaymentApp.swift */,
+				AAE790D0299F83B100F88F3B /* View */,
+				AAE790A8299F814400F88F3B /* ContentView.swift */,
+				AA76AE2829A3184800E0831F /* AppState.swift */,
+				AAE790AA299F814500F88F3B /* Assets.xcassets */,
+				AAE790AC299F814500F88F3B /* Preview Content */,
+			);
+			path = BarcodePayment;
+			sourceTree = "<group>";
+		};
+		AAE790AC299F814500F88F3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAE790AD299F814500F88F3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAE790B6299F814500F88F3B /* BarcodePaymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE790B7299F814500F88F3B /* BarcodePaymentTests.swift */,
+			);
+			path = BarcodePaymentTests;
+			sourceTree = "<group>";
+		};
+		AAE790C0299F814500F88F3B /* BarcodePaymentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE790C1299F814500F88F3B /* BarcodePaymentUITests.swift */,
+				AAE790C3299F814500F88F3B /* BarcodePaymentUITestsLaunchTests.swift */,
+			);
+			path = BarcodePaymentUITests;
+			sourceTree = "<group>";
+		};
+		AAE790D0299F83B100F88F3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAE790D1299F83B900F88F3B /* LoginView.swift */,
+				AAE790D5299F84D100F88F3B /* RegistrationView.swift */,
+				AAE790D7299F84ED00F88F3B /* HomeView.swift */,
+				AAE790DB299F875900F88F3B /* ClaimView.swift */,
+				AAE790D9299F874300F88F3B /* DepositView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE790A2299F814400F88F3B /* BarcodePayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE790C7299F814500F88F3B /* Build configuration list for PBXNativeTarget "BarcodePayment" */;
+			buildPhases = (
+				AAE7909F299F814400F88F3B /* Sources */,
+				AAE790A0299F814400F88F3B /* Frameworks */,
+				AAE790A1299F814400F88F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarcodePayment;
+			packageProductDependencies = (
+			);
+			productName = BarcodePayment;
+			productReference = AAE790A3299F814400F88F3B /* BarcodePayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE790B2299F814500F88F3B /* BarcodePaymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE790CA299F814500F88F3B /* Build configuration list for PBXNativeTarget "BarcodePaymentTests" */;
+			buildPhases = (
+				AAE790AF299F814500F88F3B /* Sources */,
+				AAE790B0299F814500F88F3B /* Frameworks */,
+				AAE790B1299F814500F88F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE790B5299F814500F88F3B /* PBXTargetDependency */,
+			);
+			name = BarcodePaymentTests;
+			productName = BarcodePaymentTests;
+			productReference = AAE790B3299F814500F88F3B /* BarcodePaymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE790BC299F814500F88F3B /* BarcodePaymentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE790CD299F814500F88F3B /* Build configuration list for PBXNativeTarget "BarcodePaymentUITests" */;
+			buildPhases = (
+				AAE790B9299F814500F88F3B /* Sources */,
+				AAE790BA299F814500F88F3B /* Frameworks */,
+				AAE790BB299F814500F88F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE790BF299F814500F88F3B /* PBXTargetDependency */,
+			);
+			name = BarcodePaymentUITests;
+			productName = BarcodePaymentUITests;
+			productReference = AAE790BD299F814500F88F3B /* BarcodePaymentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE7909B299F814400F88F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AAE790A2299F814400F88F3B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AAE790B2299F814500F88F3B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AAE790A2299F814400F88F3B;
+					};
+					AAE790BC299F814500F88F3B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AAE790A2299F814400F88F3B;
+					};
+				};
+			};
+			buildConfigurationList = AAE7909E299F814400F88F3B /* Build configuration list for PBXProject "BarcodePayment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE7909A299F814400F88F3B;
+			packageReferences = (
+			);
+			productRefGroup = AAE790A4299F814400F88F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE790A2299F814400F88F3B /* BarcodePayment */,
+				AAE790B2299F814500F88F3B /* BarcodePaymentTests */,
+				AAE790BC299F814500F88F3B /* BarcodePaymentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE790A1299F814400F88F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE790AE299F814500F88F3B /* Preview Assets.xcassets in Resources */,
+				AAE790AB299F814500F88F3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE790B1299F814500F88F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE790BB299F814500F88F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE7909F299F814400F88F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE790D2299F83B900F88F3B /* LoginView.swift in Sources */,
+				AA76AE2929A3184800E0831F /* AppState.swift in Sources */,
+				AAE790A9299F814400F88F3B /* ContentView.swift in Sources */,
+				AAE790A7299F814400F88F3B /* BarcodePaymentApp.swift in Sources */,
+				AAE790D8299F84ED00F88F3B /* HomeView.swift in Sources */,
+				AAE790D6299F84D100F88F3B /* RegistrationView.swift in Sources */,
+				AA76AE2529A3028900E0831F /* APIError.swift in Sources */,
+				AAE790DA299F874300F88F3B /* DepositView.swift in Sources */,
+				AA76AE2729A3031700E0831F /* API.swift in Sources */,
+				AAE790DC299F875900F88F3B /* ClaimView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE790AF299F814500F88F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE790B8299F814500F88F3B /* BarcodePaymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE790B9299F814500F88F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE790C4299F814500F88F3B /* BarcodePaymentUITestsLaunchTests.swift in Sources */,
+				AAE790C2299F814500F88F3B /* BarcodePaymentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE790B5299F814500F88F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE790A2299F814400F88F3B /* BarcodePayment */;
+			targetProxy = AAE790B4299F814500F88F3B /* PBXContainerItemProxy */;
+		};
+		AAE790BF299F814500F88F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE790A2299F814400F88F3B /* BarcodePayment */;
+			targetProxy = AAE790BE299F814500F88F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAE790C5299F814500F88F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAE790C6299F814500F88F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE790C8299F814500F88F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarcodePayment/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2DY9NAB53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "バーコードの読み取りに使用されます";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oops.BarcodePayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE790C9299F814500F88F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarcodePayment/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2DY9NAB53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "バーコードの読み取りに使用されます";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oops.BarcodePayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAE790CB299F814500F88F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2DY9NAB53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oops.BarcodePaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarcodePayment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarcodePayment";
+			};
+			name = Debug;
+		};
+		AAE790CC299F814500F88F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2DY9NAB53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oops.BarcodePaymentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarcodePayment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarcodePayment";
+			};
+			name = Release;
+		};
+		AAE790CE299F814500F88F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2DY9NAB53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oops.BarcodePaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarcodePayment;
+			};
+			name = Debug;
+		};
+		AAE790CF299F814500F88F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2DY9NAB53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oops.BarcodePaymentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarcodePayment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE7909E299F814400F88F3B /* Build configuration list for PBXProject "BarcodePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE790C5299F814500F88F3B /* Debug */,
+				AAE790C6299F814500F88F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE790C7299F814500F88F3B /* Build configuration list for PBXNativeTarget "BarcodePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE790C8299F814500F88F3B /* Debug */,
+				AAE790C9299F814500F88F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE790CA299F814500F88F3B /* Build configuration list for PBXNativeTarget "BarcodePaymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE790CB299F814500F88F3B /* Debug */,
+				AAE790CC299F814500F88F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE790CD299F814500F88F3B /* Build configuration list for PBXNativeTarget "BarcodePaymentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE790CE299F814500F88F3B /* Debug */,
+				AAE790CF299F814500F88F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE7909B299F814400F88F3B /* Project object */;
+}
