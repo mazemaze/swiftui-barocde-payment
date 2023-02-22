@@ -7,7 +7,33 @@
 
 import Foundation
 
+enum API {
+    case login(username: String)
+    case registration
+    case getUser
+    case sendBalance
+    case deposit
+}
+
+extension API {
+    var path: String {
+        switch self {
+        case let .login(username):
+            return "user/\(username)"
+        case .getUser:
+            return "user/"
+        case .registration:
+            return "user/registration"
+        case .deposit:
+            return "user/wallet/deposit"
+        case .sendBalance:
+            return "transactions"
+        }
+    }
+}
+
 struct Balance : Codable {
+    
 }
 
 struct RegistrationRequest : Codable {
@@ -60,7 +86,6 @@ final class BarcodeSystemFetcher {
         switch httpResponse.statusCode {
         case 200:
             do {
-                print(String(describing: data))
                 let resultData = try JSONDecoder().decode(Balance.self, from: data)
                 return resultData
             } catch {
@@ -99,7 +124,8 @@ final class BarcodeSystemFetcher {
                 let resultData = try decoder.decode(DepositResponse.self, from: data)
                 print(data)
                 return resultData.isSucceed
-            } catch {
+            } catch let error {
+                print(error.localizedDescription)
                 throw APIError.jsonDecode
             }
             
@@ -219,7 +245,9 @@ final class BarcodeSystemFetcher {
                 let resultData = try decoder.decode(User.self, from: data)
                 print(resultData)
                 return resultData
-            } catch {
+            } catch let error {
+                debugPrint(error)
+                print(error.localizedDescription)
                 throw APIError.jsonDecode
             }
             

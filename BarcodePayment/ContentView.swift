@@ -39,6 +39,7 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    @StateObject var appState = AppState()
     static var previews: some View {
         ContentView()
     }

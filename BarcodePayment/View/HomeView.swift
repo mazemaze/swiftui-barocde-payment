@@ -21,7 +21,14 @@ struct HomeView: View {
                 Text("残高：\(getComma((appState.user?.wallet.amount) ?? 0))円")
                 Spacer()
                 Image(uiImage:UIImage.makeQRCode(text: appState.user?.walletId ?? "nothing")!)
-                
+                Button("更新") {
+                    Task {
+                        let user = try await BarcodeSystemFetcher().getUser(username:appState.user?.username ?? "名無し")
+                        if user != nil {
+                            appState.user = user
+                        }
+                    }
+                }
                 Spacer()
                 
                 HStack {
@@ -56,6 +63,7 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(AppState())
     }
 }
 

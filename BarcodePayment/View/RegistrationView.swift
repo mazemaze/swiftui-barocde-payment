@@ -17,8 +17,7 @@ struct RegistrationView: View {
                 .textFieldStyle(.roundedBorder)
             Button("登録") {
                 Task {
-                    let user = try await BarcodeSystemFetcher().registerUser(username:username)
-                    print(user)
+                    let user = try await BarcodeSystemFetcher().registerUser(username: username)
                     if user != nil {
                         appState.user = user
                         appState.isLogin = true
